@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/lokesh10pb/ArgoCD-Basics-To-Production.git
-    targetRevision: HEAD
-    path: backend
+    targetRevision: main
+    path: 05-Projects/app1-backend-config/backend
   destination:
     server: https://kubernetes.default.svc
     namespace: app1-ns
